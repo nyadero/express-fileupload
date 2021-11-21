@@ -1,0 +1,15 @@
+.profileList{
+    min-height: 80vh;
+}
+.profileContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    gap: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+    .profileContainer{
+        grid-template-columns: 1fr;
+    }
+}

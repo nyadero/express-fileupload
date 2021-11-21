@@ -1,0 +1,31 @@
+.profilePage{
+    min-height: 100vh;
+}
+.formControl{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .formControl > label {
+    margin-bottom: 5px;
+  }
+  .formInput{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #666;
+    outline: none;
+  }
+  
+  .submitBtn{
+    width: 100%;
+    padding: .5rem;
+    background: royalblue;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+  }
+  
